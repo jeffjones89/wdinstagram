@@ -1,0 +1,8 @@
+<% @entries.each do |entry| %>
+    <div class="entry">
+      <h4>Post by <%= entry.author %> on <%= entry.date_taken %> </h4>
+      <a href="/<%= entry.id %>"><img class ="entry_photo" src="<%= entry.photo_url%>"></a>
+      <a class = "edit" href="/<%= entry.id%>/edit">Edit Post</a>
+      <a class = "delete" href="/<%= entry.id%>/delete">Delete</a>
+    </div>
+<% end %>

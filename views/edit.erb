@@ -1,0 +1,8 @@
+<h3>Edit Post</h3>
+<form action="/<%=@entry.id%>" method="post">
+  <input type="hidden" name="_method" value="put">
+  <input type="text" name="entry[author]" value="<%= @entry.author %>">
+  <input type="text" name="entry[photo_url]" value="<%= @entry.photo_url %>">
+  <input type="text" name="entry[date_taken]" value="<%= @entry.date_taken%>">
+  <input type= "submit">
+</form>

@@ -1,0 +1,54 @@
+body {
+  background: #046380;
+  color: #E6E2AF;
+}
+img {
+  display: block;
+  margin: auto;
+  width: 80%;
+  height: auto;
+  padding-bottom: 10%;
+  padding:1px;
+  border:1px solid #EFECCA;
+  background-color:#E6E2AF;
+}
+.entry {
+  width: 33%;
+  margin: 5px auto;
+  border: 3px white solid;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+input{
+  width: 25%;
+  margin: 0 auto;
+  display: block;
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+}
+
+h3 {
+  text-align: center;
+  font-size: 2em;
+}
+
+nav a{
+  display: block;
+  text-decoration: none;
+  color: #E6E2AF
+}
+.edit {
+  position: relative;
+  right: -30%;
+  padding: 5%;
+  background: #002F2F;
+  top: 2em;
+  color: #E6E2AF;
+  text-decoration:none;
+}
